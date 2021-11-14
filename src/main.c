@@ -20,7 +20,7 @@ static const char * file_name = "text.gz";
 #define LENGTH 0x1000
 unsigned char buffer[LENGTH];
 void DecodeDecompress(void);
-int main (int argc, char *argv[])
+int main ()
 {
     int s = -1;
     struct sockaddr_in server;
