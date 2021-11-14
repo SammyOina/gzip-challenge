@@ -62,7 +62,7 @@ int main (int argc, char *argv[])
     do{
         recv_size =recv(s, server_reply, REPLY_SIZE, 0);
         if (recv_size > 0)
-            printf("new:%s",server_reply);
+            printf("%s",server_reply);
         else if (recv_size == 0)
             printf("Connection closed\n");
         else
